@@ -1,0 +1,81 @@
+:root {
+    --highlight: white;
+    --primary: white;
+    --secondary: black;
+    --shadow: grey;
+    --text-strong: serif;
+    --text-light: monospace;
+
+    --text-primary: black;
+    --text-secondary: white;
+
+}
+
+.button-primary{
+    color: var(--text-primary);
+    background-color: var(--primary);
+    border-color: var(--secondary);
+}
+
+.button-secondary{
+    color: var(--text-secondary);
+    background-color: var(--secondary);
+    border-color: var(--primary);
+}
+
+button:disabled{
+    background-color: var(--shadow);
+    color: var(--text-secondary);
+    cursor:not-allowed;
+}
+
+label{
+    color: var(--text-primary)
+}
+
+.highlight{
+    color:var(--highlight);
+    border-color: var(--highlight);
+}
+
+.primary{
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.secondary{
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.container-primary{
+    color: var(--secondary);
+    background-color: var(--primary);
+    border-color: var(--secondary);
+}
+
+.container-secondary{
+    color: var(--primary);
+    background-color: var(--secondary);
+    border-color: var(--primary);
+}
+
+.container-shadow{
+    background-color: var(--shadow);
+}
+
+.border-primary{
+
+}
+
+.border-secondary{
+
+}
+
+.border-highlight{
+    border-color: var(--highlight);
+}
+
+.border-shadow{
+
+}
