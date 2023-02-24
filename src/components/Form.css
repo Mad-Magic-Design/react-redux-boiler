@@ -1,0 +1,14 @@
+.basic-form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.basic-form label, input, button, textarea{
+    margin: 5px;
+}
+
+.form-container{
+    border: solid 5px;
+    border-radius: 15px;
+}
