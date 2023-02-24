@@ -1,11 +1,21 @@
 .row{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     height: 100%;
     width: 100%;
 }
 
 .space-between{
     justify-content: space-between;
+}
+
+@media (max-width: 800px){
+.row{
+    flex-direction: column;
+}
+
+.responsive-reverse{
+    flex-direction: column-reverse;
+}
 }

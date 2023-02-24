@@ -6,10 +6,30 @@
     align-items: center;
 }
 
+.half{
+    width: 50%
+}
+
+.third{
+    width: 33.3%;
+}
+
+.quarter{
+    width: 25%;
+}
+
 .left{
     align-items: flex-start;
 }
 
 .center{
     justify-content: center;
+}
+
+@media (max-width: 800px){
+
+.half, .third, .quarter{
+    width: 100%;
+}
+
 }
